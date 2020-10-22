@@ -2,9 +2,9 @@
 
 1. Linux（CentOS 6.8 64bit）
 
-   - **备份：**sudo mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOd-Base.repo.backup
-   - **下载CentOS-Base.repo到/etc/yum.repos.d/ ：**wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-6.repo
-   - 运行yum makecache**生成缓存**
+   - 备份：sudo mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOd-Base.repo.backup
+   - 下载CentOS-Base.repo到/etc/yum.repos.d/ ：wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-6.repo
+   - 运行yum makecache生成缓存
 
 2. jdk1.7（linux和win）yum -y install java-1.7.0*
 
