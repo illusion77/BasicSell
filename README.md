@@ -56,13 +56,22 @@ yum -y install java-1.7.0*
 #### 1.5 Mysql 5.1.73
 
 - 安装：sudo yum -y install mysql-server
+
 - 字符集配置：
-- - 编辑my.cnf：sudo vim /etc/my.cnf
+
+  - 编辑my.cnf：sudo vim /etc/my.cnf
+
   - 添加配置，在[mysqld]下添加
-  - - default-character-set=utf8
+
+    - default-character-set=utf8
+
       character-set-server=utf8
+
 - 执行：sudo chkconfig mysqld on
+
 - 执行（如果2~5为on就ok）：sudo chkconfig --list mysqld
+
 - 修改防火墙
+
 - windows安装：https://cdn.mysql.com/archives/mysql-5.1/mysql-5.1.73-winx64.msi
 
